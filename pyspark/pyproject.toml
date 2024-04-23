@@ -25,6 +25,7 @@ packages = [{include = "graphar_pyspark"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pydantic = "^2"
 
 [tool.poetry.group.spark]
 optional = true
